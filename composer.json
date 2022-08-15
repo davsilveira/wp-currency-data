@@ -1,0 +1,21 @@
+{
+    "name": "davsilveira/wp-currency-data",
+    "description": "WP Currency Data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darvin da Silveira",
+            "email": "davsilveira@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev":{
+        "yoast/phpunit-polyfills" : "1.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+          "DavSilveira\\WpCurrencyData\\": "src"
+        }
+    }
+}
